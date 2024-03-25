@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+/* header releted styles */
 .menu-container{
     background: #464242;
     padding: 10px;
@@ -9,7 +10,10 @@
     list-style: none;
     display: flex;
     justify-content: space-around;
-    align-items: center
+    align-items: center;
+}
+.logo-photo{
+    width: 120px;
 }
 .menus{
     display: flex;
@@ -18,9 +22,40 @@
 .item{
     margin-right: 5px;
     padding-right: 7px;
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
 }
 .item:hover{
     color:rgb(16, 16, 226);
+}
+
+/* banner related styles */
+
+.bannner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    /* border: 2px solid rgb(173, 19, 19); */
+    align-items: center;
+    color: white;
+    background-image: url('../images/background.png'),
+    linear-gradient(45deg,rgb(59, 49, 49),rgb(53, 53, 53));
+}
+.banner-tittle{
+    font-size: 55px;
+    font-weight: bold;
+}
+.banner-description{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.banner-btn{
+    padding: 18px 20px;
+    background-color: red;
+    color:white;
+    border:none;
 }
