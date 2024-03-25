@@ -43,6 +43,9 @@
     color: white;
     background-image: url('../images/background.png'),
     linear-gradient(45deg,rgb(59, 49, 49),rgb(53, 53, 53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .banner-tittle{
     font-size: 55px;
@@ -53,9 +56,52 @@
     margin-top: 10px;
     margin-bottom: 15px;
 }
-.banner-btn{
+.btn{
     padding: 18px 20px;
     background-color: red;
     color:white;
     border:none;
+}
+
+/* About releted styles */
+.tittle{
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 40px;
+}
+.about-tittle{
+    background-color: rgb(85, 85, 170);
+}
+.about-container{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    background-color: rgb(85, 85, 170);
+}
+.abo-tittle{
+    margin-bottom: 10px;
+}
+.info{
+    margin-bottom: 10px;
+}
+
+/* service related styles */
+.box{
+    width: 230px;
+    height:250px;
+    box-shadow: 4px 4px 15px grey;
+    background: #000;
+    text-align: center;
+    padding: 15px;
+    color:white
+}
+.icon{
+    width: 100px;
+}
+.box-btn{
+    margin-top: 10px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
 }
