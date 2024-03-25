@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+    background: #464242;
+    padding: 10px;
+    color:white;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+};
+.menus{
+    display: flex;
+    text-decoration: none;
+}
+.item{
+    margin-right: 5px;
+    padding-right: 7px;
+    font-size: 20px;
+}
