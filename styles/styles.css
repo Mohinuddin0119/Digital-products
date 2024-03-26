@@ -47,6 +47,9 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.banner-text{
+    margin-left: 20px;
+}
 .banner-tittle{
     font-size: 55px;
     font-weight: bold;
@@ -93,7 +96,8 @@
     background: #000;
     text-align: center;
     padding: 15px;
-    color:white
+    color:white;
+    margin-bottom: 20px;
 }
 .icon{
     width: 100px;
@@ -104,4 +108,38 @@
 .service-container{
     display: flex;
     justify-content: space-around;
+}
+.service{
+    background: #352c2c;
+}
+
+/* footer related styles */
+.footer-section{
+    background: #000000;
+    color: white;
+    padding-top: 50px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.list-item {
+    list-style: none;
+}
+.description{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.footer-photo{
+    width: 300px;
+    background-image: center;
+}
+.footer-bottom{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.bottom-info{
+    text-align: center;
+    padding: 30px;
 }
